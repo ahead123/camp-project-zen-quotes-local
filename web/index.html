@@ -1,10 +1,27 @@
 <html>
 <head>
   <title>ZenQuotes - Local</title>
+
+  <script src="https://code.jquery.com/jquery-2.1.3.min.js" ></script>
   <script src="../dist/main.js"></script>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
 </head>
-<body>
+<body class="container">
   <h1>Zen Quotes - Local Storage</h1>
   <h3>List of Quotes</h3>
+  <div>
+    <input type='text' class="new-quote" placeholder='Enter a Quote...'></input>
+    <button class="add-quote">add</button>
+  </div>
+  <hr>
+  <ul class="quote-list list-group">
+  </ul>
+  <button class="clear-all-quotes">clear</button>
 </body>
 </html>
