@@ -1,0 +1,5 @@
+QuoteManager = {
+
+};
+
+module.exports = QuoteManager;
