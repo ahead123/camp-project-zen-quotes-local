@@ -1,3 +1,3 @@
 var path = require('path');
 
-// require('./src/...-spec');
+require('spec/src/stores/quote-storage-spec');

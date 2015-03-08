@@ -21,9 +21,9 @@ module.exports = {
       ".json"
     ],
     root: [
+      __dirname,
       path.join(__dirname, 'web'),
       path.join(__dirname, 'src'),
-      path.join(__dirname, 'spec'),
       path.join(__dirname, 'style'),
       path.join(__dirname, 'node_modules'),
       path.join(__dirname, 'lib'),
